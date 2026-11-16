@@ -1,0 +1,43 @@
+{
+  "config": {
+    "data_seed": 0,
+    "model_seed": 0,
+    "num_base_nodes": 300,
+    "ba_edges": 5,
+    "num_motifs": 80,
+    "hidden": 32,
+    "layers": 3,
+    "train_epochs": 400,
+    "lr": 0.01,
+    "n_targets": 30,
+    "n_seeds": 10,
+    "explainer_epochs": 200,
+    "k": 6,
+    "k_sweep": [
+      3,
+      6,
+      9,
+      12
+    ],
+    "perturb_fracs": [
+      0.05,
+      0.1
+    ],
+    "perturb_types": [
+      "add",
+      "drop"
+    ],
+    "n_perturb_draws": 5,
+    "max_perturb_tries": 30,
+    "n_random_runs": 10
+  },
+  "accuracy": {
+    "train": 0.9833333492279053,
+    "val": 0.9928571581840515,
+    "test": 0.9642857313156128
+  },
+  "summary": {
+    "seed_jaccard_gnnexp": 0.8633509700176367,
+    "seed_jaccard_random": 0.31417572550905887
+  }
+}

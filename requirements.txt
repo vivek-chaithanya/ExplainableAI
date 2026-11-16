@@ -1,0 +1,9 @@
+torch>=2.1          # developed with 2.15.0
+torch_geometric>=2.5  # developed with 2.8.1
+numpy
+pandas
+scipy
+matplotlib
+networkx
+tabulate
+pillow
