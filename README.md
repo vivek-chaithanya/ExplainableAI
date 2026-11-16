@@ -114,7 +114,7 @@ One synthetic dataset, one GCN, one explainer configuration and 30 target nodes.
 
 ## 🤖 LLM-use disclosure
 
-An LLM coding assistant (Claude, via Claude Code) was used to write code, debug, suggest analyses and draft the report. Results were checked by running a smoke test before the full run, sanity-checking the baseline against ground truth, and generating the report's numbers from the saved CSVs. The report's Section 8 gives the full disclosure.
+We used an LLM assistant (Claude) to generate most of the code and help debug it, to suggest extra ideas and analyses, to help check the results and to help draft the report. We verified the work with a smoke test before the full run, a baseline-vs-ground-truth sanity check, and by comparing the report's numbers with the saved result files. See Section 8 of the [report](report/GNNExplainer_Stability_Report.pdf).
 
 ## 📚 References
 
