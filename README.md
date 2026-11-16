@@ -11,7 +11,7 @@
 
 **M Julekhya (142301023) · M Vivek Chaithanya (142301024)**
 
-📄 [**Full report (PDF)**](report/GNNExplainer_Stability_Report.pdf) &nbsp;|&nbsp; 📝 [Proposal](docs/WEEK-1_PROJECT_PROPOSAL.pdf)
+📄 [**Full report (PDF)**](report/GNNExplainer_Stability_Report.pdf) &nbsp;|&nbsp; 💻 [**Code**](https://github.com/vivek-chaithanya/ExplainableAI) &nbsp;|&nbsp; 📝 [Proposal](docs/WEEK-1_PROJECT_PROPOSAL.pdf)
 
 </div>
 
