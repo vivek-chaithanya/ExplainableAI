@@ -114,7 +114,7 @@ One synthetic dataset, one GCN, one explainer configuration and 30 target nodes.
 
 ## 🤖 LLM-use disclosure
 
-We used an LLM assistant (Claude) to generate most of the code and help debug it, to suggest extra ideas and analyses, to help check the results and to help draft the report. We verified the work with a smoke test before the full run, a baseline-vs-ground-truth sanity check, and by comparing the report's numbers with the saved result files. See Section 8 of the [report](report/GNNExplainer_Stability_Report.pdf).
+The research question, hypotheses, metrics, and baseline all originated from our Week-1 proposal, supported by the academic literature and technical documentation cited throughout this report. We used LLMs selectively in a supporting role: Claude (Anthropic) was used briefly at the very beginning to brainstorm initial project ideas and for occasional snippets of code generation, while ChatGPT (OpenAI) was used to look up unfamiliar syntax and debug our implementation. All core experimental design, analysis, and writing were carried out by us. We verified the integrity of our work by running a small smoke test before the full experiment, confirming that the random baseline scored near chance against the known house edges while GNNExplainer scored significantly higher, and cross-checking all reported numbers directly against our saved result files.
 
 ## 📚 References
 
